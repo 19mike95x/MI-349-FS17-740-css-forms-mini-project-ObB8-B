@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marathon Form</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <style>
+      .form_size {
+        margin-left: ($spacer * .5) !important;
+        margin-right: ($spacer * .5) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row border border-primary rounded">
+        <div class="col-xl">
+          <h1 class="text-center">Marathon Entry Form</h1>
+          <p class="text-center">To enter the Marathon you must fill out the following form. T-shirts will be given out on the day of the race.</p>
+        </div>
+      </div>
+    </div>
+    <form class="m-3">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label>First Name</label>
+          <input type="text" class="form-control" placeholder="First Name">
+        </div>
+        <div class="form-group col-md-6">
+          <label>Last Name</label>
+          <input type="text" class="form-control" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Address</label>
+        <input type="text" class="form-control" placeholder="1234 Main St">
+      </div>
+      <div class="form-group">
+        <label>Address 2</label>
+        <input type="text" class="form-control" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label>City</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+          <label>State</label>
+          <select class="form-control">
+            <option selected>Choose...</option>
+            <option>Michigan</option>
+            <option>Ohio</option>
+            <option>Indiana</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label>Zip</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-2">
+          <label>Gender</label>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gender"> Male
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gender"> Female
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gender"> Other
+            </label>
+          </div>
+        </div>
+        <div class="form-group col-md-4">
+          <label>T-Shirt Size</label>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="size"> Small
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="size"> Medium
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="size"> Large
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="size"> Extra Large
+            </label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
